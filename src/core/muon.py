@@ -3,9 +3,11 @@ from src.tools.line import line
 
 class muon:
 
-    def __init__(self, p, v):
+    def __init__(self, p, v, index, partition):
 
         self.muonTrajectory = line(p, v)
+        self.index = index
+        self.partition = partition
         self.distances = []
         self.voxels = []
        

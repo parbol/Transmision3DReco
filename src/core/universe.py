@@ -8,7 +8,7 @@ class universe:
     # This class handles all the elements of the geometrical universe.
     # The universe is composed by an active volume that contains the voxels and the detectors
    
-    def __init__(self, conf, activeVol, detectors, opacityMap):
+    def __init__(self, conf, activeVol, detectors):
 
         self.x = conf.unix
         self.y = conf.uniy
